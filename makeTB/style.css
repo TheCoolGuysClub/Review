@@ -1,0 +1,54 @@
+html{
+  margin:10px;
+}
+#questionOne{
+  margin:10px;
+  border:solid;
+}
+#questionTwo{
+  border:solid;
+}
+#firstPage{
+  display:;
+}
+#secondPage{
+  display:none;
+}
+#fourpic{
+  display:grid;
+  grid-template-columns: repeat(4,1fr)
+
+}
+#threepic{
+  display:grid;
+  grid-template-columns: repeat(3,1fr)
+}
+#f1{
+
+  grid-column:1fr;
+
+}
+#f2{
+
+}
+#f3
+{
+
+}
+.pic{border:solid;}
+
+#dropDown{
+  text-align: center;
+  font-size:25px;
+  background-color: grey;
+}
+#myDropDown:hover{
+  cursor: pointer;
+}
+
+#diyige{
+  display:none;
+}
+#dierge{
+  display:none;
+}
