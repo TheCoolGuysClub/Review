@@ -55,7 +55,8 @@
 
   let secondbox = $('#secondB');
   secondbox.on("click",function(){
-      secondbox.toggle
+      secondbox.toggleClass("changeSize");
+      console.log(secondbox);
   })
   let thirdbox = $('#thirdB');
   thirdbox.on("click",function(){
@@ -63,6 +64,6 @@
   })
   let fourthbox = $('#forthB');
   fourthbox.on("click",function(){
-  
+      fourthbox.toggleClass("movePo")
   })
 }

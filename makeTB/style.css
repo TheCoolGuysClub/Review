@@ -15,11 +15,20 @@ html{
   display:;
 }
 #fourpic{
+  margin:10px;
   display:grid;
   grid-template-columns: repeat(4,1fr)
 
 }
+#f1{margin:10px;}
+#f2{margin:10px;}
+#f3{margin:10px;}
+#f4{margin:10px;}
+#t1{margin:10px;}
+#t2{margin:10px;}
+#t3{margin:10px;}
 #threepic{
+  margin:10px;
   display:grid;
   grid-template-columns: repeat(3,1fr)
 }
@@ -75,9 +84,11 @@ html{
   cursor: pointer;
 }
 .changeColor{
+
     background-color: blue;
     animation:changeColor 4s;
     left:100px;
+    transition:2s;
 }
 
 @keyframes changeColor{
@@ -95,8 +106,34 @@ html{
 #thirdB{
   transition:3s;
 }
+#secondB{
 
+}
 
+.changeSize{
+  animation:ChangeSize 5s;
+}
+@keyframes ChangeSize{
+  0%{width:100px;
+      height:100px;}
+  100%{
+    width:300px;
+    height:300px;
+  }
+
+#forthB{
+  left:100px;
+}
+.movePo{
+
+  animation:MovePo 5s;
+}
+@keyframes MovePo{
+  0%{left :100px;}
+  25%{top:100px;}
+  50%{right:100px;}
+  100%{buttom:100px;}
+}
 
 
 
