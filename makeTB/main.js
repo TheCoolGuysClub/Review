@@ -52,10 +52,10 @@
   firstbox.on("click",function(){
       firstbox.toggleClass("changeColor");
   })
-  
+
   let secondbox = $('#secondB');
   secondbox.on("click",function(){
-
+      secondbox.toggle
   })
   let thirdbox = $('#thirdB');
   thirdbox.on("click",function(){
