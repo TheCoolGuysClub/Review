@@ -26,11 +26,43 @@
 }
 
   //question 3
-    {let dropdown = $('myDropDown');
-    dropdown.on("click"function(){
-      $()
+    {let dropdown = $('#myDropDown');
+    let first = $('#diyige');
+    let second = $('#dierge');
+    let firstContent = $('#firstPage');
+    let secondContent = $('#secondPage');
+    dropdown.on("click",function(){
+      first.toggleClass("hidden");
+      second.toggleClass("hidden");
     })
-
+    first.on("click",function(){
+      firstContent.toggleClass("hidden");
+    })
+    second.on("click",function(){
+      console.log(secondContent);
+      secondContent.toggleClass("hidden");
+    })
 
     }
 
+
+
+//question 4
+{ let firstbox = $('#firstB');
+  firstbox.on("click",function(){
+      firstbox.toggleClass("changeColor");
+  })
+  
+  let secondbox = $('#secondB');
+  secondbox.on("click",function(){
+
+  })
+  let thirdbox = $('#thirdB');
+  thirdbox.on("click",function(){
+ 
+  })
+  let fourthbox = $('#forthB');
+  fourthbox.on("click",function(){
+  
+  })
+}

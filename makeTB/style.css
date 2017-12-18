@@ -12,7 +12,7 @@ html{
   display:;
 }
 #secondPage{
-  display:none;
+  display:;
 }
 #fourpic{
   display:grid;
@@ -23,18 +23,7 @@ html{
   display:grid;
   grid-template-columns: repeat(3,1fr)
 }
-#f1{
 
-  grid-column:1fr;
-
-}
-#f2{
-
-}
-#f3
-{
-
-}
 .pic{border:solid;}
 
 #dropDown{
@@ -47,8 +36,67 @@ html{
 }
 
 #diyige{
-  display:none;
+  /*display:none;*/
 }
 #dierge{
+ /* display:none;*/
+}
+.hidden{
   display:none;
 }
+#diyige:hover{
+  cursor:pointer;
+}
+#dierge:hover{
+  cursor:pointer;
+}
+
+
+.box{
+  position:relative;
+  margin:5px;
+  height:100px;
+  width:100px;
+}
+.red{
+  transition:3s;
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.yellow{
+  background-color: yellow;
+}
+.pink{
+  background-color: pink;
+}
+.box:hover{
+  cursor: pointer;
+}
+.changeColor{
+    background-color: blue;
+    animation:changeColor 4s;
+    left:100px;
+}
+
+@keyframes changeColor{
+  from{background-color: red;
+    left:0px;}
+  to{background-color: blue;
+    left:100px;
+  }
+}
+#thirdB:hover{
+  transition:3s;
+  width:300px;
+  height:300px;
+}
+#thirdB{
+  transition:3s;
+}
+
+
+
+
+
